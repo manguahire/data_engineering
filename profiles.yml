@@ -1,0 +1,11 @@
+dbt_core_databricks_demo:
+  outputs:
+    dev:
+      catalog: dbt_to_databricks
+      host: dbc-acfc1264-ae66.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/bc3bb5db705fa304
+      schema: default
+      threads: 1
+      token: dapi25dd3abf53b9bd4796612024c32b4898dapi25dd3abf53b9bd4796612024c32b4898
+      type: databricks
+  target: dev
