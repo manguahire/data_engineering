@@ -8,4 +8,5 @@ dbt_core_databricks_demo:
       threads: 1
       token: dapi25dd3abf53b9bd4796612024c32b4898dapi25dd3abf53b9bd4796612024c32b4898
       type: databricks
-  target: dev
+  target: prod
+  
